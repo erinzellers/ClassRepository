@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title> Kelly Zellers | Artist</title>
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="js/magnific/magnific-popup.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
@@ -25,13 +26,13 @@
 				<ul id="gallery">
 					
 					<li>
-						<a href="images/_MG_2366.jpg">
+						<a href="images/_MG_2366.jpg" class="magnific">
 							<img src="images/_MG_2366.jpg" alt="">
 							<p>edith</p>
 						</a>
 					</li>
 					<li>
-						<a href="images/_MG_2366.jpg">
+						<a href="images/_MG_2346.jpg" class="magnific">
 							<img src="images/_MG_2346.jpg" alt="">
 							<p>abstract</p>
 						</a>
@@ -39,25 +40,25 @@
 					
 					
 					<li>
-						<a href="images/MG_2384.jpg">
+						<a href="images/MG_2384.jpg" class="magnific">
 							<img src="images/MG_2384.jpg" alt="">
 							<p>drips</p>
 						</a>
 					</li>
 					<li>
-						<a href="images/_MG_2525.jpg">
+						<a href="images/_MG_2525.jpg" class="magnific">
 							<img src="images/_MG_2525.jpg" alt="">
 							<p>autumn rhythm</p>
 						</a>
 					</li>
 					<li>
-						<a href="images/_MG_2390.jpg">
+						<a href="images/_MG_2390.jpg" class="magnific">
 							<img src="images/_MG_2390.jpg" alt="">
 							<p>Curses!</p>
 						</a>
 					</li>
 					<li>
-						<a href="images/_MG_2471.jpg">
+						<a href="images/_MG_2471.jpg" class="magnific">
 							<img src="images/_MG_2471.jpg" alt="">
 							<p>steigl</p>
 						</a>
@@ -66,11 +67,28 @@
 				</ul>
 			</section>
 			<footer>
-				<a href="http://facebook.com/kelly.zellers.3"><img src="images/facebook.png" width="75" alt="Facebook Logo"></a>
-				<a href="https://instagram.com/kellyzellers"><img src="images/instagram.png" width="75" alt="Instagram Logo"></a>
+				<a href="http://facebook.com/kelly.zellers.3"><img src="images/facebook.png" width="50" alt="Facebook Logo"></a>
+				<a href="https://instagram.com/kellyzellers"><img src="images/instagram.png" width="50" alt="Instagram Logo"></a>
 				<p>&copy; 2015 Kelly Zellers.</p>
 			</footer>
 		</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		 	<script src="js/magnific/jquery.magnific-popup.min.js"></script>
+		 	<script>
+		 		$(document).ready(function() {
+
+					$('.magnific').magnificPopup({
+						type: 'image',
+						closeOnContentClick: true,
+						image: {
+							verticalFit: true,
+						}
+					});
+
+				});
+		 	</script>
+		 	
 	</body>
 </html>
 
