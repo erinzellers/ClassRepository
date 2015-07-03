@@ -4,6 +4,7 @@ General
 
 body {
 	font-family: 'Raleway', sans-serif;
+	padding-bottom: 70px;
 }
 
 #wrapper {
@@ -27,15 +28,15 @@ img {
 Heading
 *****************/
 
-#logo {
+/*#logo {
 	text-align: center;
 	margin: 0;
-}
+}*/
 
 h1 {
 	font-family: 'Lato', sans-serif;
 	margin:15px 0;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: normal;
 	line-height: 0.8em;
 	text-align: left;
@@ -44,14 +45,17 @@ h1 {
 }
 
 
-.main-header {
-  /*padding-top: 170px;*/
-  
+/*.navbar {
+  height: 100px;
   max-width: 100%;
   background-size: cover;
-
-  /*background: #888 url('../images/IMG_0005.jpg') no-repeat center;*/
-}
+  text-align: right;
+	padding: 10px 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	word-spacing: 20%;
+	font-size: 1.5em;
+}*/
 
 #container{
 	max-height: 450px;
@@ -65,7 +69,7 @@ h1 {
 Navigation
 *****************/
 
-nav {
+.navbar {
 	text-align: right;
 	padding: 10px 20px;
 /*	margin: 20px 0 0;
@@ -129,6 +133,7 @@ img {
 
 #main_gallery {
 	text-align: center;
+	padding-top: 30px;
 }
 
 
@@ -138,16 +143,16 @@ colors
 *****************/
 
 
-/* grey header */
+/* grey header 
 header {
 	border-bottom: 5px solid #111;
   	margin-bottom: 60px;
-}
+}*/
 
-/* nav background on mobile */
+/* nav background on mobile 
 nav {
 	background: #555;
-}
+}*/
 
 /* logo text */
 h1, h2 {
@@ -159,22 +164,21 @@ a {
 	color: #999999;
 }
 
-/* nav link */
+/* nav link 
 nav a, nav a:visited {
 	color: #fff;
-}
+}*/
 
-/* selected nav link color */
+/* selected nav link color 
 nav a.selected, nav a:hover {
 	color: #1c1c1c;
-}
+}*/
 
 /* site body */
 body {
 	background-color: #fff;
 	color: #999;
-
-
+	padding-top: 70px;
 }
 
 
