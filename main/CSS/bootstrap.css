@@ -6534,7 +6534,7 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after {
-  display: table;
+  /*display: table;*/
   content: " ";
 }
 .clearfix:after,
