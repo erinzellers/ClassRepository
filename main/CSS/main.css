@@ -49,17 +49,7 @@ h1 {
 }
 
 
-/*.navbar {
-  height: 100px;
-  max-width: 100%;
-  background-size: cover;
-  text-align: right;
-	padding: 10px 20px;
-	list-style-type: none;
-	padding-right: 20px;
-	word-spacing: 20%;
-	font-size: 1.5em;
-}*/
+
 
 #container{
 	max-height: 450px;
@@ -98,6 +88,7 @@ nav ul li {
 	background-color: #444444;
 	transition: 0.7s all linear;
 	height: 100%;
+	border-radius: 7px;
 }
 
 .navbar-brand {
